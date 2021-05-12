@@ -1,0 +1,102 @@
+# Startup time
+
+- 554ms
+- 540ms
+- 529ms
+- 529ms
+- 523ms
+
+===> 523ms
+
+# Performance
+
+===> 137176.63
+
+=== Run 0 ===
+
+Running 15s test @ http://localhost:8080/hello
+  8 threads and 256 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     6.30ms   14.42ms 415.25ms   96.13%
+    Req/Sec     7.67k     3.44k   33.89k    68.65%
+  Latency Distribution
+     50%    3.63ms
+     75%    6.43ms
+     90%   11.93ms
+     99%   50.06ms
+  912085 requests in 15.10s, 78.28MB read
+Requests/sec:  60417.00
+Transfer/sec:      5.19MB
+
+
+=== Run 1 ===
+Running 15s test @ http://localhost:8080/hello
+  8 threads and 256 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     2.28ms    5.80ms 208.81ms   98.36%
+    Req/Sec    16.65k     3.18k   41.47k    71.83%
+  Latency Distribution
+     50%    1.62ms
+     75%    2.53ms
+     90%    3.76ms
+     99%   10.32ms
+  1991605 requests in 15.06s, 170.94MB read
+Requests/sec: 132223.18
+Transfer/sec:     11.35MB
+=== Run 2 ===
+Running 15s test @ http://localhost:8080/hello
+  8 threads and 256 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     2.35ms    6.28ms 210.69ms   98.12%
+    Req/Sec    17.11k     3.12k   43.60k    69.75%
+  Latency Distribution
+     50%    1.60ms
+     75%    2.57ms
+     90%    3.93ms
+     99%   12.67ms
+  2046347 requests in 15.07s, 175.64MB read
+Requests/sec: 135770.38
+Transfer/sec:     11.65MB
+=== Run 3 ===
+Running 15s test @ http://localhost:8080/hello
+  8 threads and 256 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     2.11ms    4.50ms 167.31ms   97.93%
+    Req/Sec    17.18k     3.34k   35.65k    70.17%
+  Latency Distribution
+     50%    1.59ms
+     75%    2.48ms
+     90%    3.66ms
+     99%    9.16ms
+  2055674 requests in 15.09s, 176.44MB read
+Requests/sec: 136242.50
+Transfer/sec:     11.69MB
+=== Run 4 ===
+Running 15s test @ http://localhost:8080/hello
+  8 threads and 256 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     2.11ms    4.42ms 144.88ms   98.32%
+    Req/Sec    17.31k     2.84k   28.49k    69.25%
+  Latency Distribution
+     50%    1.61ms
+     75%    2.43ms
+     90%    3.48ms
+     99%    8.47ms
+  2070132 requests in 15.05s, 177.68MB read
+Requests/sec: 137554.13
+Transfer/sec:     11.81MB
+=== Run 5 ===
+Running 15s test @ http://localhost:8080/hello
+  8 threads and 256 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     2.21ms    4.85ms 186.53ms   97.82%
+    Req/Sec    17.28k     3.08k   38.54k    71.75%
+  Latency Distribution
+     50%    1.63ms
+     75%    2.57ms
+     90%    3.82ms
+     99%   10.52ms
+  2066624 requests in 15.07s, 177.38MB read
+Requests/sec: 137176.63
+Transfer/sec:     11.77MB
+
