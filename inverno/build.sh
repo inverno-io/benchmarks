@@ -1,4 +1,4 @@
 PRGDIR=`dirname "$0"`
-cd "$PRGDIR"/demo-winter
+cd "$PRGDIR"/demo-inverno
 exec mvn clean package
 cd -

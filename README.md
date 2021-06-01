@@ -46,5 +46,5 @@ The best requests/sec rate is then retained as performance indicator.
 
 ## Results
 
-[Results](runs/) are presented in a graph showing the performance of the various frameworks and containers relative to Winter framework.
+[Results](runs/) are presented in a graph showing the performance of the various frameworks and containers relative to Inverno framework.
 

@@ -25,7 +25,7 @@ OpenJDK 64-Bit Server VM (build 16+36-2231, mixed mode, sharing)
 		<th>Relative Change</th>
 	</tr>
 	<tr style="font-weight: bold;">
-		<td>Winter</td>
+		<td>Inverno</td>
 		<td style="text-align: right;">330369.03</td>
 		<td style="text-align: center;">0%</td>
 	</tr>
@@ -77,7 +77,7 @@ OpenJDK 64-Bit Server VM (build 16+36-2231, mixed mode, sharing)
 		<th>Relative Change</th>
 	</tr>
 	<tr style="font-weight: bold;">
-		<td>Winter</td>
+		<td>Inverno</td>
 		<td style="text-align: right;">224</td>
 		<td style="text-align: center;">0%</td>
 	</tr>

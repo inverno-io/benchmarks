@@ -7,7 +7,7 @@ PRGDIR=`dirname "$0"`
 "$PRGDIR"/spring/clean.sh
 "$PRGDIR"/tomcat/clean.sh
 "$PRGDIR"/vertx/clean.sh
-"$PRGDIR"/winter/clean.sh
+"$PRGDIR"/inverno/clean.sh
 
 
 
